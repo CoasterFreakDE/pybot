@@ -95,7 +95,7 @@ async def sendAll(message: Message):
     if icon:
         icon_url = icon
     embed.set_thumbnail(url=icon_url)
-    embed.set_footer(text='Gesendet von Server {}'.format(message.guild.name), icon_url=icon_url)
+    embed.set_footer(text=f'Gesendet von Server {message.guild.name}', icon_url=icon_url)
 
     links = '[Melion Discord](https://discord.gg/j6nAhV6) ║ '
     globalchat = get_globalChat(message.guild.id, message.channel.id)
@@ -162,4 +162,4 @@ def get_globalChat_id(guild_id):
 
 ###########################################################
 
-bot.run('')
+bot.run('NjU4OTU5MTU2ODk1ODA5NTU3.XtTulA.dlyP6WQFBTIFSkP9QLdZZ7PGPlY')
